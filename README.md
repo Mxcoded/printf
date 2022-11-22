@@ -13,3 +13,6 @@ int printf ( const char * format, ... );
 |c|fn_char|print a character|G|
 |s|fn_string|print a string of characters|group|
 |d or i|fn_integer|print a number in base 10, signed integer|212|
+
+## Contributors
+@Mxcoded @chidiamara
