@@ -15,5 +15,5 @@ int printf ( const char * format, ... );
 |d or i|fn_integer|print a number in base 10, signed integer|212|
 
 ## Contributors
-[@Mxcoded - Github Profile](https://github.com/Mxcoded)  
-[@chidiamara - Github Profile](https://github.com/chidiamara)
+[Oluwasheyi Makanjuola](https://github.com/Mxcoded)  
+[Chidiamara Ekejiuba](https://github.com/chidiamara)
