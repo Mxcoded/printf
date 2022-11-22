@@ -10,10 +10,10 @@ int (*find_function(const char *format))(va_list)
 	unsigned int i = 0;
 	code_f find_f[] = {
 		{"c", fn_char},
-		{"s", fn_string}
-		/**
-	*	{"i", fn_int},
-	*	{"d", fn_dec},
+		{"s", fn_string},
+		{"i", fn_int},
+		{"d", fn_dec},
+	/**
 	*	{"r", fn_rev},
 	*	{"b", fn_bin},
 	*	{"u", fn_unsig},
@@ -21,7 +21,7 @@ int (*find_function(const char *format))(va_list)
 	*	{"x", fn_x},
 	*	{"X", fn_X},
 	*	{"R", fn_rot13},
-		*/
+	*/
 		{NULL, NULL}
 	};
 
