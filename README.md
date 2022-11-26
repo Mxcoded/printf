@@ -10,10 +10,10 @@ int printf ( const char * format, ... );
 # Specifiers
 |Specifiers|Functions|Description|Example|
 |--|--|--|--|
-|c|fn_char|print a character|G|
-|s|fn_string|print a string of characters|group|
-|d or i|fn_integer|print a number in base 10, signed integer|212|
+|c|print_char|print a character|G|
+|s|print_string|print a string of characters|group|
+|d or i|print_int|print a number in base 10, signed integer|212|
 
 ## Contributors
-[Oluwasheyi Makanjuola](https://github.com/Mxcoded)  
+[Oluwasheyi Makanjuola](https://github.com/Mxcoded)
 [Chidiamara Ekejiuba](https://github.com/chidiamara)

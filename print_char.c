@@ -1,25 +1,18 @@
 #include "main.h"
 /**
- * fn_char - writes the character c to stdout
- * @c: The character to print
+ * print_char - print char.
+ * @list: va_list.
  *
- * Return: 1.
+ * Return: 1
  */
-int fn_char(va_list c)
+int print_char(va_list list)
 {
-	unsigned char my_char;
+	int aux;
 
-	my_char = va_arg(c, int);
-	_putchar(my_char);
+	aux = va_arg(list, int);
+
+	_putchar(aux);
+
 	return (1);
 }
-/**
- * print_porcentage - %
- *
- * Return: 1.
- */
-int print_porcentage(void)
-{
-	_putchar('%');
-	return (1);
-}
+
